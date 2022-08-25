@@ -24,3 +24,4 @@ Install python  packages specified for the project
 
 ### `python cleaner.py`
 
+Run the cleaner
