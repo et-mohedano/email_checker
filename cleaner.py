@@ -14,6 +14,7 @@ dataFrame = File.parse('mails')
 validEmails = []
 InvalidEmails = []
 emails_list = dataFrame['mails']
+print(f"Total of emais: {len(emails_list)}")
 emails_list = list(set(emails_list))
 print("Process started")
 for emialToSend in emails_list:
